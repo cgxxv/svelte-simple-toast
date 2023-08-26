@@ -1,11 +1,11 @@
 {
   "name": "@cgxxv/svelte-simple-toast",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "license": "MIT",
   "repository": "https://github.com/cgxxv/svelte-simple-toast.git",
   "description": "A simple toast component for Svelte apps",
-  "svelte": "./dist/index.ts",
+  "svelte": "./src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
