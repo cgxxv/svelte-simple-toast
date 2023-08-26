@@ -5,14 +5,14 @@ Demo: https://svelte-simple-toast.vercel.app
 ## Installation
 
 ```bash
-npm install svelte-simple-toast
+npm install @cgxxv/svelte-simple-toast
 ```
 
 ## Usage
 
 ```svelte
 <script lang="ts">
-	import Toast from "svelte-simple-toast";
+	import Toast from "@cgxxv/svelte-simple-toast";
 </script>
 
 <Toast position="top-right" />
@@ -23,7 +23,7 @@ You can pass one of 6 positions as a prop: `top-left` (default), `top-center`, `
 When you want to send a toast, from wherever you like, import the `send_toast` function and execute it.
 
 ```typescript
-import { send_toast } from "svelte-simple-toast";
+import { send_toast } from "@cgxxv/svelte-simple-toast";
 
 send_toast({
 	title: "Information",
